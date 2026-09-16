@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="16" fill="#FF4D8D"/>
+  <rect x="10" y="10" width="20" height="20" rx="6" fill="#FFC93C"/>
+  <rect x="34" y="10" width="20" height="20" rx="6" fill="#3EC6FF"/>
+  <rect x="10" y="34" width="20" height="20" rx="6" fill="#2EE6A6"/>
+  <rect x="34" y="34" width="20" height="20" rx="6" fill="#8B7CFF"/>
+  <text x="32" y="42" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="22" fill="#24165A">I</text>
+</svg>

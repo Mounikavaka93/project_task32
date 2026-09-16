@@ -1,0 +1,303 @@
+export const categories = [
+  {
+    id: 'educational',
+    name: 'Educational Toys',
+    tag: 'Learn & Play',
+    count: 42,
+    color: 'from-sunny to-coral',
+    glow: 'shadow-sunny/40',
+    image: '/images/cat-educational.jpg',
+  },
+  {
+    id: 'soft',
+    name: 'Soft Toys',
+    tag: 'Hugs First',
+    count: 38,
+    color: 'from-candy to-lavender',
+    glow: 'shadow-candy/40',
+    image: '/images/unicorn2.jpg',
+  },
+  {
+    id: 'outdoor',
+    name: 'Outdoor Games',
+    tag: 'Sun & Sprint',
+    count: 24,
+    color: 'from-mint to-sky',
+    glow: 'shadow-mint/40',
+    image: '/images/toy-i.jpg',
+  },
+  {
+    id: 'blocks',
+    name: 'Building Blocks',
+    tag: 'Stack Worlds',
+    count: 31,
+    color: 'from-coral to-sunny',
+    glow: 'shadow-coral/40',
+    image: '/images/color-blocks.jpg',
+  },
+  {
+    id: 'rc',
+    name: 'Remote Control Toys',
+    tag: 'Full Speed',
+    count: 19,
+    color: 'from-sky to-lavender',
+    glow: 'shadow-sky/40',
+    image: '/images/prod-teddy.jpg',
+  },
+  {
+    id: 'baby',
+    name: 'Baby Toys',
+    tag: 'First Giggles',
+    count: 27,
+    color: 'from-peach to-candy',
+    glow: 'shadow-candy/30',
+    image: '/images/cat-baby.jpg',
+  },
+]
+
+export const products = [
+  {
+    id: 1,
+    name: 'Rainbow Architect Blocks',
+    price: 34.99,
+    oldPrice: 44.99,
+    rating: 4.9,
+    reviews: 218,
+    category: 'blocks',
+    badge: 'Bestseller',
+    image: '/images/wood-b.jpg',
+    description:
+      'Open-ended wooden arches in a sunburst palette. Stack, tunnel, and tell stories for hours of focused, quiet play.',
+  },
+  {
+    id: 2,
+    name: 'Cloudberry Teddy',
+    price: 24.5,
+    oldPrice: 29.99,
+    rating: 4.8,
+    reviews: 412,
+    category: 'soft',
+    badge: 'Hug Favorite',
+    image: '/images/prod-plush.jpg',
+    description:
+      'Ultra-soft organic cotton plush with embroidered smile. Machine-washable and sized for airplane cuddles.',
+  },
+  {
+    id: 3,
+    name: 'Turbo Beetle RC Racer',
+    price: 49.99,
+    oldPrice: 64.0,
+    rating: 4.7,
+    reviews: 156,
+    category: 'rc',
+    badge: 'Hot',
+    image: '/images/prod-teddy.jpg',
+    description:
+      'Drift-ready remote racer with LED headlights and a 40-minute charge. Indoor-safe tires and outdoor speed modes.',
+  },
+  {
+    id: 4,
+    name: 'Story Planet Puzzle Globe',
+    price: 29.0,
+    rating: 4.9,
+    reviews: 98,
+    category: 'educational',
+    badge: 'STEM',
+    image: '/images/prod-puzzle-globe.png',
+    description:
+      '48 magnetic pieces that snap into a spinning globe. Each continent hides a bite-size discovery card.',
+  },
+  {
+    id: 5,
+    name: 'Meadow Jump Rope Set',
+    price: 16.99,
+    rating: 4.6,
+    reviews: 73,
+    category: 'outdoor',
+    badge: 'New',
+    image: '/images/prod-jump-ropes.png',
+    description:
+      'Adjustable cotton ropes, wooden handles, and a backyard challenge card so siblings can race fair and square.',
+  },
+  {
+    id: 6,
+    name: 'First Symphony Activity Cube',
+    price: 39.99,
+    oldPrice: 48.0,
+    rating: 4.8,
+    reviews: 267,
+    category: 'baby',
+    badge: '0–24 mo',
+    image: '/images/prod-puzzle.jpg',
+    description:
+      'Bead maze, mirror, gears, and crinkle panels in one pastel cube. Designed for tummy time through first steps.',
+  },
+  {
+    id: 7,
+    name: 'City Stacker Vehicles',
+    price: 27.5,
+    rating: 4.7,
+    reviews: 141,
+    category: 'blocks',
+    badge: 'Set of 12',
+    image: '/images/prod-teether.jpg',
+    description:
+      'Chunky cars, buses, and cranes that nest, stack, and roll. Rounded edges, plant-based dyes, endless traffic jams.',
+  },
+  {
+    id: 8,
+    name: 'Luna Unicorn Plush',
+    price: 32.0,
+    rating: 5.0,
+    reviews: 89,
+    category: 'soft',
+    badge: 'Limited',
+    image: '/images/unicorn2.jpg',
+    description:
+      'Iridescent mane, weighted hooves, and a removable star cape. The bedtime companion that actually stays put.',
+  },
+  {
+    id: 9,
+    name: 'Aqua Blaster Water Ring',
+    price: 21.99,
+    oldPrice: 26.0,
+    rating: 4.5,
+    reviews: 64,
+    category: 'outdoor',
+    badge: 'Summer',
+    image: '/images/prod-water-rings.png',
+    description:
+      'Soft-grip ring toss that doubles as a splash target. Packs flat for park days and inflates in 20 seconds.',
+  },
+  {
+    id: 10,
+    name: 'Circuit Bot Inventor Kit',
+    price: 54.99,
+    rating: 4.8,
+    reviews: 122,
+    category: 'educational',
+    badge: 'Ages 8+',
+    image: '/images/prod-robot.jpg',
+    description:
+      'Snap-together robot with light sensors and 12 guided missions. No screens required — just curiosity.',
+  },
+  {
+    id: 11,
+    name: 'Trail Hawk Drone Glider',
+    price: 59.0,
+    oldPrice: 72.0,
+    rating: 4.6,
+    reviews: 81,
+    category: 'rc',
+    badge: 'Sale',
+    image: '/images/prod-racer.jpg',
+    description:
+      'Beginner-friendly glider with auto-hover and a 100m range. Foam body survives the learning curve.',
+  },
+  {
+    id: 12,
+    name: 'Tiny Tide Teether Set',
+    price: 18.5,
+    rating: 4.9,
+    reviews: 305,
+    category: 'baby',
+    badge: 'Gentle',
+    image: '/images/prod-teether-set.png',
+    description:
+      'Food-grade silicone shapes in ocean hues. Fridge-friendly, dishwasher-safe, and designed for little fists.',
+  },
+]
+
+export const testimonials = [
+  {
+    id: 1,
+    name: 'Priya Mehta',
+    role: 'Mom of two, Pune',
+    rating: 5,
+    quote:
+      'The architect blocks have outlasted every plastic fad in our house. My kids actually negotiate and build together now.',
+    image: '/images/review-1.jpg',
+  },
+  {
+    id: 2,
+    name: 'Daniel Ortiz',
+    role: 'Dad & weekend coach',
+    rating: 5,
+    quote:
+      'We ordered the RC racer for a birthday and ended up racing the whole family. Fast shipping, sturdier than it looks.',
+    image: '/images/review-2.jpg',
+  },
+  {
+    id: 3,
+    name: 'Aisha Rahman',
+    role: 'Early years teacher',
+    rating: 5,
+    quote:
+      'IDEALS toys feel considered. The activity cube is in our classroom rotation because it invites independent play.',
+    image: '/images/review-3.jpg',
+  },
+  {
+    id: 4,
+    name: 'James Okonkwo',
+    role: 'Parent of a toddler',
+    rating: 4,
+    quote:
+      'Cloudberry Teddy survived the wash and still looks new. Customer note in the box made my kid feel famous.',
+    image: '/images/review-4.jpg',
+  },
+  {
+    id: 5,
+    name: 'Sofia Alvarez',
+    role: 'Gift buyer extraordinaire',
+    rating: 5,
+    quote:
+      'I send IDEALS boxes to nieces and nephews. The wrapping, the quality, the “wow” faces on video calls — unbeatable.',
+    image: '/images/review-5.jpg',
+  },
+]
+
+export const whyChoose = [
+  {
+    title: 'Safe & Child-Friendly',
+    text: 'Non-toxic dyes, rounded edges, and third-party safety checks on every SKU.',
+    accent: 'bg-candy',
+    letter: 'I',
+    word: 'Imagination',
+  },
+  {
+    title: 'Quality That Lasts',
+    text: 'Solid woods, tight stitching, and toys designed to be handed down, not thrown out.',
+    accent: 'bg-sunny',
+    letter: 'D',
+    word: 'Discovery',
+  },
+  {
+    title: 'Fast, Careful Delivery',
+    text: 'Play-ready packaging that arrives quickly without the landfill of plastic peanuts.',
+    accent: 'bg-sky',
+    letter: 'E',
+    word: 'Education',
+  },
+  {
+    title: 'Educational Value',
+    text: 'Every toy is mapped to a skill: focus, fine motor, storytelling, or outdoor grit.',
+    accent: 'bg-mint',
+    letter: 'A',
+    word: 'Adventure',
+  },
+  {
+    title: 'Happy Customers',
+    text: 'A 30-day smile guarantee and a real human on the other end of “help”.',
+    accent: 'bg-lavender',
+    letter: 'L',
+    word: 'Love',
+  },
+]
+
+export const navLinks = [
+  { id: 'home', label: 'Home' },
+  { id: 'shop', label: 'Shop' },
+  { id: 'categories', label: 'Categories' },
+  { id: 'about', label: 'About Us' },
+  { id: 'contact', label: 'Contact' },
+]
